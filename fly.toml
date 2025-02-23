@@ -4,7 +4,7 @@
 #
 
 app = 'flychat-ws-zl7h3g'
-primary_region = 'bom'
+primary_region = 'lax'
 
 [build]
 
