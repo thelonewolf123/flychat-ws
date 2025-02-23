@@ -1,12 +1,12 @@
-app = "flychat-ws-n6x8gw"
-primary_region = "ams"
+app = "flychat-ws-zl7h3g"
+primary_region = "bom"
 
 [http_service]
 auto_start_machines = true
 auto_stop_machines = true
 force_https = true
 internal_port = 3_000
-min_machines_running = 3
+min_machines_running = 0
 processes = [ "app" ]
 
 [[vm]]
@@ -14,8 +14,3 @@ cpu_kind = "shared"
 cpus = 1
 memory = "1gb"
 memory_mb = 1_024
-
-# Add regions for global coverage
-[regions]
-primary = ["ams"]
-fallback = ["lax", "fra"]
